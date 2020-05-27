@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 
 import "./sign-in-sign-up.styles.scss";
 import FormInput from "../../components/form-input/form-input.component";
