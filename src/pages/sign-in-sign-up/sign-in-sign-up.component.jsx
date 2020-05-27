@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 
 import "./sign-in-sign-up.styles.scss";
 import FormInput from "../../components/form-input/form-input.component";
@@ -47,7 +47,6 @@ class SignInSignUp extends React.Component {
           <div className="buttons">
             <CustomButton type="submit"> Sign in </CustomButton>
             <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
-              {" "}
               Sign in with Google
             </CustomButton>
           </div>
